@@ -1,0 +1,1563 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"fo",
+				"ForeignKey"
+			],
+			[
+				"pu",
+				"publish_date"
+			],
+			[
+				"pr",
+				"probabilidades"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"ur",
+				"url"
+			],
+			[
+				"film",
+				"filmName"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"pri",
+				"println"
+			],
+			[
+				"m",
+				"main	method (main)"
+			],
+			[
+				"for",
+				"fore	for (each)"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"new",
+				"newAnswerForm"
+			],
+			[
+				"text",
+				"textarea"
+			],
+			[
+				"ma",
+				"margin"
+			],
+			[
+				"id",
+				"idQ"
+			],
+			[
+				"margit",
+				"margin-top"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"prin",
+				"print_r"
+			],
+			[
+				"idQ",
+				"idQuestion"
+			],
+			[
+				"create",
+				"createAnswers"
+			],
+			[
+				"P",
+				"PRIMARY"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"Pre",
+				"PreguntaAdmin"
+			],
+			[
+				"lin",
+				"lineas"
+			],
+			[
+				"ca",
+				"cadaNumero"
+			],
+			[
+				"B",
+				"boolean"
+			],
+			[
+				"ins",
+				"instanceof"
+			],
+			[
+				"ki",
+				"kittySchema"
+			],
+			[
+				"mon",
+				"mongoose"
+			],
+			[
+				"num",
+				"numPartidos"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"MAR",
+				"margin-top"
+			],
+			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"li",
+				"link	Tag"
+			],
+			[
+				"FON",
+				"font-family"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"D",
+				"DList"
+			],
+			[
+				"set",
+				"setNext"
+			],
+			[
+				"head",
+				"headPointer"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"messa",
+				"messagesViewer"
+			],
+			[
+				"mess",
+				"messagesWrapper"
+			],
+			[
+				"messages",
+				"messagesWrapper"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"me",
+				"messagesNo"
+			],
+			[
+				"last",
+				"lastReceived"
+			],
+			[
+				"json_",
+				"json_encode"
+			],
+			[
+				"arr",
+				"array	$… = array (…)"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"PA",
+				"padding-top"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"min-",
+				"min-width"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"border-co",
+				"border-color"
+			],
+			[
+				"FONT",
+				"font-size"
+			],
+			[
+				"bacgrou",
+				"background"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"magin",
+				"margin-right"
+			],
+			[
+				"si",
+				"sigPos"
+			],
+			[
+				"String",
+				"StringBuilder"
+			],
+			[
+				"th",
+				"throw"
+			],
+			[
+				"pro",
+				"productos"
+			],
+			[
+				"de",
+				"devuelve"
+			],
+			[
+				"e",
+				"equalsIgnoreCase"
+			],
+			[
+				"n",
+				"nombre"
+			],
+			[
+				"nom",
+				"nombres"
+			],
+			[
+				"i",
+				"intereses1"
+			],
+			[
+				"mapa",
+				"mapa1"
+			],
+			[
+				"hor",
+				"horasSemanales"
+			],
+			[
+				"tra",
+				"trabajaP"
+			],
+			[
+				"trab",
+				"trabajaEnPrivado"
+			],
+			[
+				"busca",
+				"buscador"
+			],
+			[
+				"con",
+				"ControlExterno"
+			],
+			[
+				"sY",
+				"System"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"login",
+				"loginBox"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"utf",
+				"utf8_encode"
+			],
+			[
+				"prit",
+				"print_r"
+			],
+			[
+				"score",
+				"scoreOfAll"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"generate",
+				"generateQR"
+			],
+			[
+				"obje",
+				"object"
+			],
+			[
+				"add",
+				"addPlayer"
+			],
+			[
+				"exec",
+				"executeQuery"
+			],
+			[
+				"heig",
+				"height"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"t",
+				"top"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"margin-",
+				"margin-left"
+			],
+			[
+				"_",
+				"_GET"
+			],
+			[
+				"cam",
+				"cambioClave"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"pass",
+				"passw"
+			],
+			[
+				"T_",
+				"T_Nodo"
+			],
+			[
+				"sessio",
+				"session_start"
+			],
+			[
+				"fe",
+				"fetch_object"
+			],
+			[
+				"activid",
+				"actividad"
+			],
+			[
+				"insc",
+				"inscripciones"
+			],
+			[
+				"exe",
+				"executeQuery"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"backgro",
+				"background-color"
+			],
+			[
+				"tim",
+				"timeFoto"
+			],
+			[
+				"GPS",
+				"GPSByTime"
+			],
+			[
+				"tr",
+				"trkpt"
+			],
+			[
+				"A",
+				"agenda"
+			],
+			[
+				"buff",
+				"buffW"
+			],
+			[
+				"buf",
+				"buffWh"
+			],
+			[
+				"interrog",
+				"interrogacion"
+			],
+			[
+				"M",
+				"M"
+			],
+			[
+				"fot",
+				"font-size"
+			],
+			[
+				"pi",
+				"position"
+			],
+			[
+				"borde",
+				"border"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"page",
+				"page-divider"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "www/templates/index.htm",
+			"settings":
+			{
+				"buffer_size": 72,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/models.py",
+			"settings":
+			{
+				"buffer_size": 186,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"selected_items":
+		[
+			[
+				"git qui",
+				"Git: Quick Commit"
+			],
+			[
+				"git ",
+				"Git: Init"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"git statu",
+				"Git: Status"
+			],
+			[
+				"GIT STATU",
+				"Git: Status"
+			],
+			[
+				"py	",
+				"Set Syntax: Python"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git ad",
+				"Git: Add Current File"
+			],
+			[
+				"git st",
+				"Git: Status"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"HTML",
+				"Set Syntax: HTML"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git ini",
+				"Git: Init"
+			],
+			[
+				"git pul",
+				"Git: Pull"
+			],
+			[
+				"GIT QUI",
+				"Git: Quick Commit"
+			],
+			[
+				"GIT AD",
+				"Git: Add Current File"
+			],
+			[
+				"git pus",
+				"Git: Push"
+			],
+			[
+				"GIT qui",
+				"Git: Quick Commit"
+			],
+			[
+				"GIT ADD",
+				"Git: Add..."
+			],
+			[
+				"GIt push",
+				"Git: Push"
+			],
+			[
+				"quic",
+				"Git: Quick Commit"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git qu",
+				"Git: Quick Commit"
+			],
+			[
+				"git log",
+				"Git: Log All"
+			],
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"GIT PUS",
+				"Git: Push"
+			],
+			[
+				"git quic",
+				"Git: Quick Commit"
+			],
+			[
+				"log",
+				"Git: Log Current File"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"add",
+				"Git: Add..."
+			],
+			[
+				"java",
+				"Set Syntax: Java"
+			],
+			[
+				"jav",
+				"Set Syntax: Java"
+			],
+			[
+				"js",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"reset",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"rese",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"gir head",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"git rese",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"git reset",
+				"Git: Reset (unstage) Current File"
+			],
+			[
+				"git lo",
+				"Git: Log All"
+			],
+			[
+				"git co",
+				"Git: Quick Commit"
+			],
+			[
+				"git i",
+				"Git: Init"
+			],
+			[
+				"c++",
+				"Set Syntax: C++"
+			],
+			[
+				"git",
+				"Git: Init"
+			],
+			[
+				"git in",
+				"Git: Init"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"git qi",
+				"Git: Quick Commit"
+			],
+			[
+				"h",
+				"Set Syntax: HTML"
+			],
+			[
+				"gis",
+				"Git: Status"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"jaa",
+				"Set Syntax: Java"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML"
+			],
+			[
+				"JAVA",
+				"Set Syntax: Java"
+			],
+			[
+				"git sta",
+				"Git: Stash Apply"
+			],
+			[
+				"make",
+				"Set Syntax: Makefile"
+			],
+			[
+				"Git add",
+				"Git: Add..."
+			],
+			[
+				"c",
+				"Set Syntax: C"
+			],
+			[
+				"GIT PS",
+				"Git: Push"
+			],
+			[
+				"Git PULL",
+				"Git: Pull"
+			],
+			[
+				"GIT add",
+				"Git: Add..."
+			],
+			[
+				"git pu",
+				"Git: Pull"
+			],
+			[
+				"Git push",
+				"Git: Push"
+			],
+			[
+				"GIQ U",
+				"Git: Quick Commit"
+			],
+			[
+				"git bra",
+				"Git: Change Branch"
+			],
+			[
+				"git sa",
+				"Git: Status"
+			],
+			[
+				"GIT qu",
+				"Git: Quick Commit"
+			],
+			[
+				"SQL",
+				"Set Syntax: SQL"
+			],
+			[
+				"it q",
+				"Git: Quick Commit"
+			],
+			[
+				"git quick",
+				"Git: Quick Commit"
+			],
+			[
+				"git dele",
+				"Git: Delete Branch"
+			],
+			[
+				"git cha",
+				"Git: Change Branch"
+			],
+			[
+				"git chan",
+				"Git: Change Branch"
+			],
+			[
+				"git change",
+				"Git: Change Branch"
+			],
+			[
+				"git chang",
+				"Git: Change Branch"
+			],
+			[
+				"it qu",
+				"Git: Quick Commit"
+			],
+			[
+				"git c",
+				"Git: Change Branch"
+			],
+			[
+				"git che",
+				"Git: Checkout Current File"
+			],
+			[
+				"git s",
+				"Git: Status"
+			],
+			[
+				"git p",
+				"Git: Pull"
+			],
+			[
+				"git q",
+				"Git: Quick Commit"
+			],
+			[
+				"stat",
+				"Git: Status"
+			],
+			[
+				"git de",
+				"Git: Delete Branch"
+			],
+			[
+				"git mer",
+				"Git: Merge Branch"
+			],
+			[
+				"GIT BRAN",
+				"Git: New Branch"
+			],
+			[
+				"GIT ad",
+				"Git: Add Current File"
+			],
+			[
+				"GIT QU",
+				"Git: Quick Commit"
+			],
+			[
+				"MAR",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"M",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"GIT RESE",
+				"Git: Reset (hard) HEAD"
+			],
+			[
+				"MARK",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"mar",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: preview in Browser"
+			],
+			[
+				"markd",
+				"Markdown Preview: copy to clipboard"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"ph",
+				"Set Syntax: PHP"
+			],
+			[
+				"git me",
+				"Git: Merge Branch"
+			],
+			[
+				"brac",
+				"Git: New Branch"
+			],
+			[
+				"git branch",
+				"Git: New Branch"
+			],
+			[
+				"f",
+				"File: Revert"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"GIT PU",
+				"Git: Push"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"GIT Q",
+				"Git: Quick Commit"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"git hist",
+				"Git: Commit history"
+			],
+			[
+				"git his",
+				"Git: Commit history"
+			],
+			[
+				"jsp",
+				"Set Syntax: Java Server Page (JSP)"
+			],
+			[
+				"git quci",
+				"Git: Quick Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit history"
+			],
+			[
+				"git histo",
+				"Git: Commit history"
+			],
+			[
+				"git  add",
+				"Git: Add..."
+			],
+			[
+				"run",
+				"Build: Run"
+			],
+			[
+				"u",
+				"Code Folding: Unfold All"
+			],
+			[
+				"ru",
+				"Build: Run"
+			],
+			[
+				"r",
+				"Build: Run"
+			],
+			[
+				"hmtl",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"xml",
+				"Set Syntax: XML"
+			],
+			[
+				"jso",
+				"Set Syntax: JSON"
+			],
+			[
+				"SET",
+				"Set Syntax: PHP"
+			],
+			[
+				"pull",
+				"Git: Pull Current Branch"
+			],
+			[
+				"git ps",
+				"Git: Push"
+			],
+			[
+				"git push ",
+				"Git: Push Tags"
+			],
+			[
+				"git check",
+				"Git: Checkout Current File"
+			],
+			[
+				"git add ",
+				"Git: Add Current File"
+			],
+			[
+				"haske",
+				"Set Syntax: Haskell"
+			],
+			[
+				"set",
+				"Set Syntax: PHP"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/franbaena/Dev/plantas/www/.gitignore",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/backend/consejo/models.py",
+		"/Users/franbaena/Dev/pelis/recommendations/views.py",
+		"/Users/franbaena/Dev/consejo/consejo/urls.py",
+		"/Users/franbaena/Dev/consejo/administracion/templates/index.htm",
+		"/Users/franbaena/Dev/consejo/administracion/views.py",
+		"/Users/franbaena/Dev/consejo/administracion/models.py",
+		"/Users/franbaena/Dev/consejo/consejo/shortcuts.py ",
+		"/Users/franbaena/Dev/pelis/recommendations/models.py",
+		"/Users/franbaena/Dev/pelis/recommendations/templates/index.htm",
+		"/Users/franbaena/Dev/pelis/pelis/urls.py",
+		"/Users/franbaena/Dev/consejo/administracion/admin.py",
+		"/Users/franbaena/Dev/consejo/administracion/templates/login.htm",
+		"/Users/franbaena/Dev/consejo/administracion/admin.pyc",
+		"/Users/franbaena/Dev/pelis/pelis/settings.py",
+		"/Users/franbaena/Dev/consejo/consejo/settings.py",
+		"/Users/franbaena/Dev/pelis/recommendations/admin.py",
+		"/Users/franbaena/Dev/pelis/recommendations/admin.pyc",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/wp-theme/footer.php",
+		"/Users/franbaena/Dev/TIC/practica2/BinaryTreeCod.java",
+		"/Users/franbaena/Dev/TIC/practica2/Fuente.java",
+		"/Users/franbaena/Dev/MDS/metodoDelCaso.md",
+		"/Users/franbaena/Dev/MDS/==MÉTODO DEL CASO==",
+		"/Users/franbaena/Dev/pelis/recommendations/templates/login.htm",
+		"/Users/franbaena/Dev/pelis/static/js/functions.js",
+		"/Users/franbaena/Dev/pelis/recommendations/templates/index2.htm",
+		"/Users/franbaena/Desktop/Freebase/bootstrap/index.htm",
+		"/Users/franbaena/Desktop/Freebase/index.htm",
+		"/Users/franbaena/Desktop/Freebase/searchFilm.py",
+		"/Users/franbaena/Desktop/Freebase/example.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mambocar/index.htm",
+		"/Applications/XAMPP/xamppfiles/htdocs/mambocar/css/style.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/mambocar/js/autocompletar.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/baenafrancisco/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/backend/manage.py",
+		"/Users/franbaena/TIC/ejClase21Oct/App.Java",
+		"/Users/franbaena/TIC/ejClase21Oct/Fuente.java",
+		"/Users/franbaena/Downloads/Fuente.java",
+		"/Users/franbaena/Dev/ps/ps/settings.py",
+		"/Users/franbaena/Documents/Proyecto R.A/PROYECTO R.A.txt",
+		"/Users/franbaena/Dev/ps/www/models.py",
+		"/Users/franbaena/Dev/ps/www/admin.py",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/README.md",
+		"/Users/franbaena/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Applications/XAMPP/xamppfiles/htdocs/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/baenafrancisco/aotw/PAR/IMG_7357.txt",
+		"/Users/franbaena/Documents/SUBJECTS2014.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/baenafrancisco/aotw/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/baenafrancisco/.gitignore",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/FAQs/install.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/FAQs/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/FAQs/do.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/FAQs/functions.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/asignaturas/add/add.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/asignaturas/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/asignaturas/functions.php",
+		"/Users/franbaena/Dev/ETSII-Alumni/FAQs/functions.php",
+		"/Users/franbaena/Dev/GITProxyON.sh",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/asignaturas/add/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/asignaturas/install.php",
+		"/Users/franbaena/Dev/GITProxyOFF.sh",
+		"/Users/franbaena/Documents/webConsejo.txt",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/asignaturas/index.htm",
+		"/Users/franbaena/Dev/tryDjango/tryDjango/settings.py",
+		"/Users/franbaena/Dev/tryDjango/polls/admin.py",
+		"/Users/franbaena/Dev/tryDjango/polls/views.py",
+		"/Users/franbaena/Dev/tryDjango/tryDjango/urls.py",
+		"/Users/franbaena/Dev/tryDjango/polls/models.py",
+		"/Users/franbaena/Dev/tryDjango/polls/urls.py",
+		"/Users/franbaena/Dev/tryDjango/polls/templates/polls/detail.htm",
+		"/Users/franbaena/Dev/tryDjango/polls/templates/polls/index.htm",
+		"/Applications/XAMPP/xamppfiles/htdocs/ETSII-Alumni/frontend/index.htm",
+		"/Users/franbaena/Dev/cinfUMA/cinfUMA/settings.py",
+		"/Users/franbaena/Dev/cinfUMA/cinfUMA/urls.py",
+		"/Users/franbaena/Dev/cinfUMA/polls/models.py",
+		"/Users/franbaena/Desktop/app2.java",
+		"/Users/franbaena/Desktop/App.java",
+		"/Users/franbaena/Dev/RestNode/app.js",
+		"/Users/franbaena/Dev/RestNode/tryM.js",
+		"/Users/franbaena/Dev/ric/server.js",
+		"/Users/franbaena/Dev/ric/app.js",
+		"/Users/franbaena/Dev/ric/package.json",
+		"/Users/franbaena/Desktop/hola.htm",
+		"/Users/franbaena/Dev/ric/core/core.js",
+		"/Users/franbaena/Dev/ChatNODE/chat.js",
+		"/Users/franbaena/Desktop/ExpressTry/views/index.html",
+		"/Users/franbaena/Desktop/ExpressTry/views/article.html",
+		"/Users/franbaena/Desktop/ExpressTry/package.json",
+		"/Users/franbaena/Desktop/ExpressTry/app.js",
+		"/Users/franbaena/Desktop/Node/read_sync.js",
+		"/Users/franbaena/Desktop/Node/server.js",
+		"/Users/franbaena/Desktop/Node/read_async.js",
+		"/Users/franbaena/Desktop/Node/dns.js",
+		"/Users/franbaena/Desktop/LIGATENIS/simuliga.php",
+		"/Users/franbaena/Desktop/Consejo/style/style.css",
+		"/Users/franbaena/Desktop/Consejo/index.htm",
+		"/Users/franbaena/Desktop/Consejo/calendario.htm",
+		"/Users/franbaena/Desktop/index.htm",
+		"/Users/franbaena/Desktop/Consejo/style/calendario.htm",
+		"/Users/franbaena/Desktop/ED/DList.java",
+		"/Users/franbaena/Desktop/ED/App.java",
+		"/Users/franbaena/Desktop/ED/DNode.java",
+		"/Users/franbaena/Desktop/ED/LinkedList.java",
+		"/Users/franbaena/Desktop/ED/Node.java",
+		"/Users/franbaena/Desktop/ED/Node.class",
+		"/Users/franbaena/Desktop/ED/ArbolBinarioOrdenado.java",
+		"/Users/franbaena/Desktop/GitUse/index.htm",
+		"/Users/franbaena/Desktop/MSG/www/index.htm",
+		"/Users/franbaena/Desktop/MSG/css/style.css",
+		"/Users/franbaena/Desktop/MSG/js/core.js",
+		"/Users/franbaena/Desktop/MSG/manifest.webapp",
+		"/Users/franbaena/Desktop/MSG/www/chat.htm",
+		"/Users/franbaena/Desktop/HiWorldFos/www/index.htm",
+		"/Users/franbaena/Desktop/MSG/js/jquery.min.js",
+		"/Users/franbaena/Desktop/HiWorldFos/css/style.css",
+		"/Users/franbaena/Desktop/sub.php",
+		"/Users/franbaena/Desktop/HiWorldFos/js/messagesCore.js",
+		"/Users/franbaena/.bashrc",
+		"/Users/franbaena/Desktop/index.html",
+		"/Users/franbaena/Desktop/qea/css/stlyle.css",
+		"/Users/franbaena/Desktop/qea/index.htm",
+		"/Applications/XAMPP/xamppfiles/htdocs/mambocar/js/jquery.min.js",
+		"/Applications/XAMPP/xamppfiles/htdocs/mambocar/index.php",
+		"/Applications/XAMPP/xamppfiles/htdocs/mambocar/fb.htm",
+		"/Applications/XAMPP/xamppfiles/htdocs/mambocar/style/estilo.css",
+		"/Applications/XAMPP/xamppfiles/htdocs/iga/index.htm",
+		"/Applications/XAMPP/xamppfiles/htdocs/iga/css/style.css",
+		"/Users/franbaena/Downloads/WLMContacts(1).csv"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"buildCodeParameters",
+			"shanno",
+			"practica1",
+			"entrop",
+			"REDUNDANCIA",
+			"ultimas_peliculas",
+			".buscaCi",
+			"buscaCiudad ",
+			"QMML",
+			"ciencias",
+			"Ciencias",
+			"ciencias",
+			"c",
+			"pR",
+			"ac",
+			"a",
+			"nR",
+			"t",
+			"r",
+			"n",
+			"aux",
+			"theNumber",
+			"char",
+			"c",
+			"caracteres",
+			"addQu",
+			"goto",
+			"id()",
+			"insert_id",
+			"asigP",
+			"asig",
+			"contrib.admin",
+			"contrib",
+			"def",
+			"EMAIL",
+			"email",
+			"point of view",
+			"th",
+			"h3",
+			"teoría",
+			"margin",
+			"panelCen",
+			"infoMambo",
+			"	",
+			"\"",
+			";",
+			"you",
+			"}\n",
+			"VICEPRESIDENTE",
+			"vicepresidente",
+			"lookupCode",
+			"getAll",
+			"addPlayer(",
+			"getInfoOfShoots",
+			"getPlace",
+			"head",
+			"?>",
+			"seguri",
+			"<trk",
+			"\"",
+			"860px",
+			"font-family",
+			"();\n",
+			"page",
+			"'",
+			"conten",
+			"contenido",
+			"grafito",
+			"ul",
+			"z-inde",
+			"order by",
+			"LIKE",
+			"TRUNC",
+			"SYSDATE",
+			"TO_DATE",
+			"months_between",
+			"to_char",
+			"UPPER",
+			"AND",
+			"IS NULL",
+			"WHERE",
+			"FROM",
+			"<font style='color:#DD335B; font-weight:1.3px'>SELECT</font>",
+			"<font style='color:#DD335B'>SELECT</font>",
+			"SELECT",
+			"2_",
+			"1_",
+			"where",
+			"from",
+			"folders",
+			"dbCon",
+			"1000",
+			" \n",
+			"í",
+			"{\n    \"108\": {\n        \"nombre\": \"Málaga-Pizarra-Álora\",\n        \"codigo\": \"M-231\",\n        \"horarios\": [\n            {\n                \"origen\": \"Málaga\",\n                \"destino\": \"Álora (Piscina)\",\n                \"l-v\": [\n                    \"21:00\"\n                ],\n                \"sabado\": [\n                    \"09:00\",\n                    \"11:45\",\n                    \"18:00\"\n                ],\n                \"domingo\": [\n                    \"09:00\",\n                    \"11:45\",\n                    \"18:00\"\n                ]\n            },\n            {\n                \"origen\": \"Álora (Piscina)\",\n                \"destino\": \"Málaga\",\n                \"l-v\": [\n                    \"07:30\"\n                ],\n                \"sabado\": [\n                    \"10:00\",\n                    \"12:45\",\n                    \"19:45\"\n                ],\n                \"domingo\": [\n                    \"10:00\",\n                    \"12:45\",\n                    \"19:45\"\n                ]\n            }\n        ]\n    },\n    \"138\": {\n        \"nombre\": \"Málaga-Pizarra-Álora (Directo)\",\n        \"codigo\": \"M-233\",\n        \"horarios\": [\n            {\n                \"origen\": \"Málaga\",\n                \"destino\": \"Álora (Piscina)\",\n                \"l-v\": [\n                    \"07:00\",\n                    \"09:15\",\n                    \"10:30\",\n                    \"11:30\",\n                    \"12:30\",\n                    \"13:30\",\n                    \"15:00\",\n                    \"16:00\",\n                    \"17:00\",\n                    \"18:00\",\n                    \"19:00\",\n                    \"20:00\"\n                ],\n                \"sabado\": [\n                    \"07:00\",\n                    \"14:00\",\n                    \"16:00\",\n                    \"20:45\"\n                ],\n                \"domingo\": [\n                    \"07:00\",\n                    \"14:00\",\n                    \"16:00\",\n                    \"20:45\"\n                ]\n            },\n            {\n                \"origen\": \"Álora (Piscina)\",\n                \"destino\": \"Málaga\",\n                \"l-v\": [\n                    \"07:15\",\n                    \"07:45\",\n                    \"08:15\",\n                    \"09:00\",\n                    \"10:00\",\n                    \"11:00\",\n                    \"12:00\",\n                    \"14:30\",\n                    \"16:00\",\n                    \"17:00\",\n                    \"19:00\",\n                    \"20:00\",\n                    \"21:00\"\n                ],\n                \"sabado\": [\n                    \"08:00\",\n                    \"15:00\",\n                    \"17:00\",\n                    \"21:30\"\n                ],\n                \"domingo\": [\n                    \"08:00\",\n                    \"15:00\",\n                    \"17:00\",\n                    \"21:30\"\n                ]\n            }\n        ]\n    },\n    \"121\": {\n        \"nombre\": \"Álora-Bermejo-El Chorro\",\n        \"codigo\": \"M-340\",\n        \"horarios\": [\n            {\n                \"origen\": \"Álora (Veracruz)\",\n                \"destino\": \"El Chorro\",\n                \"l-v\": [\n                    \"07:25\",\n                    \"08:50\",\n                    \"11:00\",\n                    \"12:30\",\n                    \"17:25\"\n                ],\n                \"sabado\": [\n                    \"07:40\",\n                    \"12:50\",\n                    \"17:25\"\n                ]\n            },\n            {\n                \"origen\": \"El Chorro\",\n                \"destino\": \"Álora (Veracruz)\",\n                \"l-v\": [\n                    \"07:50\",\n                    \"09:15\",\n                    \"11:30\",\n                    \"13:00\",\n                    \"17:50\"\n                ],\n                \"sabado\": [\n                    \"08:00\",\n                    \"13:10\",\n                    \"17:50\"\n                ]\n            }\n        ]\n    },\n    \"122\": {\n        \"nombre\": \"Álora-Vado del Álamo\",\n        \"codigo\": \"M-341\",\n        \"horarios\": [\n            {\n                \"origen\": \"Álora (Veracruz)\",\n                \"destino\": \"Venta Tendilla\",\n                \"l-v\": [\n                    \"07:25\",\n                    \"08:55\",\n                    \"12:30\"\n                ]\n            },\n            {\n                \"origen\": \"Venta Tendilla\",\n                \"destino\": \"Álora (Veracruz)\",\n                \"l-v\": [\n                    \"07:35\",\n                    \"09:10\",\n                    \"13:00\"\n                ]\n            }\n        ]\n    },\n    \"123\": {\n        \"nombre\": \"Álora-Estación de Álora\",\n        \"codigo\": \"M-342\",\n        \"horarios\": [\n            {\n                \"origen\": \"Álora\",\n                \"destino\": \"Estación de Álora\",\n                \"l-v\": [\n                    \"08:30\",\n                    \"14:30\",\n                    \"16:40\",\n                    \"19:40\",\n                    \"20:40\",\n                    \"21:40\"\n                ],\n                \"sabado\": [\n                    \"08:35\",\n                    \"12:35\",\n                    \"14:30\",\n                    \"16:40\",\n                    \"20:40\"\n                ]\n            },\n            {\n                \"origen\": \"Estación de Álora\",\n                \"destino\": \"Álora\",\n                \"l-v\": [\n                    \"08:43\",\n                    \"12:20\",\n                    \"14:21\",\n                    \"15:24\",\n                    \"18:20\",\n                    \"20:21\",\n                    \"21:21\"\n                ],\n                \"sabado\": [\n                    \"08:43\",\n                    \"14:20\",\n                    \"16:21\",\n                    \"18:20\",\n                    \"20:20\"\n                ]\n            }\n        ]\n    },\n    \"161\": {\n        \"nombre\": \"Málaga Centro-Alameda - Álora\",\n        \"codigo\": \"C-2 -\",\n        \"horarios\": [\n            {\n                \"origen\": \"Málaga Centro-Alameda\",\n                \"destino\": \"Estación de tren de Álora\",\n                \"l-v\": [\n                    \"06:00\",\n                    \"09:40\",\n                    \"11:40\",\n                    \"12:40\",\n                    \"13:40\",\n                    \"14:40\",\n                    \"15:40\",\n                    \"17:40\",\n                    \"18:40\",\n                    \"19:40\",\n                    \"20:40\",\n                    \"21:40\"\n                ]\n            },\n            {\n                \"origen\": \"Estación de tren de Álora\",\n                \"destino\": \"Málaga Centro-Alameda\",\n                \"l-v\": [\n                    \"06:55\",\n                    \"07:55\",\n                    \"08:55\",\n                    \"10:55\",\n                    \"12:55\",\n                    \"13:55\",\n                    \"14:55\",\n                    \"15:55\",\n                    \"16:55\",\n                    \"18:55\",\n                    \"19:55\",\n                    \"20:55\",\n                    \"21:55\",\n                    \"22:55\"\n                ]\n            }\n        ]\n    }\n}",
+			"js",
+			"hol",
+			"$tabCont",
+			"b",
+			"z-inde",
+			"<=",
+			"sTexto",
+			"oRecordSet",
+			"oRecordSetArchivos",
+			"replace",
+			"&laquo;",
+			"Σ",
+			"∑",
+			"€",
+			"perteneciente a",
+			"€",
+			"sigma",
+			"(sigma*)",
+			"sigma",
+			"gold",
+			"all",
+			"arrayJug"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"#",
+			"{-}",
+			"",
+			",",
+			"'",
+			"\"",
+			"redWood",
+			"<font style='color:#DD335B;'>ORDER BY</font>",
+			"<font style='color:#DD335B;'>LIKE</font>",
+			"<font style='color:#71CEE9;'>TRUNC</font>",
+			"<font style='color:#71CEE9;'>SYSDATE</font>",
+			"<font style='color:#71CEE9;'>TO_DATE</font>",
+			"<font style='color:#71CEE9;'>MONTHS_BETWEEN</font>",
+			"<font style='color:#71CEE9;'>TO_CHAR</font>",
+			"<font style='color:#71CEE9;'>UPPER</font>",
+			"<font style='color:#DD335B;'>AND</font>",
+			"<font style='color:#DD335B;'>IS NULL</font>",
+			"<font style='color:#DD335B;'>WHERE</font>",
+			"<font style='color:#DD335B;'>FROM</font>",
+			"<font style='color:#DD335B;'>SELECT</font>",
+			"<font style='color:#DD335B; font-weight:1.3px'>SELECT</font>",
+			"<font style='color:#DD335B'>SELECT</font>",
+			"\\n2_",
+			"\\n1_",
+			"WHERE",
+			"FROM",
+			"DBConnection",
+			"&iacute;",
+			"$datosInternos",
+			"sigma",
+			"perteneciente a",
+			"€",
+			"perteneciente a",
+			"Σ",
+			"&#931;",
+			"jugadores"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "www/templates/index.htm",
+					"settings":
+					{
+						"buffer_size": 72,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								54,
+								54
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "www/models.py",
+					"settings":
+					{
+						"buffer_size": 186,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 180.0
+	},
+	"output.find_results":
+	{
+		"height": 112.0
+	},
+	"output.git":
+	{
+		"height": 142.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/franbaena/Documents/Universidad/Segundo/Bases de Datos/6-SQL/Apuntes SQL DML.txt"
+			],
+			[
+				"baena",
+				"/Users/franbaena/Dev/Web/SC/README.md"
+			],
+			[
+				"calc",
+				"/Users/franbaena/Sites/Liga/rankingCalc.php"
+			],
+			[
+				"inde",
+				"/Users/franbaena/Sites/Liga/index.php"
+			],
+			[
+				"cone",
+				"/Users/franbaena/Sites/Liga/controlSesion.php"
+			],
+			[
+				"can",
+				"/Users/franbaena/Dev/Web/Pruebas/canvas.htm"
+			],
+			[
+				"apu",
+				"/Users/franbaena/Documents/Universidad/Segundo/Bases de Datos/6-SQL/Apuntes SQL DML.txt"
+			],
+			[
+				"sty",
+				"/Users/franbaena/Dev/Web/DanielLopezFotos/css/style.css"
+			],
+			[
+				"sy",
+				"/Users/franbaena/Library/Application Support/Firefox/Profiles/cimn2njn.default/gm_scripts/AR/AR.user.js"
+			],
+			[
+				"index",
+				"/Users/franbaena/Dev/Web/DanielLopezFotos/index.htm"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/franbaena/Dev/consejo/consejo.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 138.0,
+	"status_bar_visible": true
+}
