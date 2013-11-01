@@ -10,8 +10,8 @@ class Planta(models.Model):
 	nombreComun = models.CharField(max_length=150)
 	nombreCientifico = models.CharField(max_length=150)
 	distribucion = models.CharField(max_length=100)
-	medida = models.DecimalField(max_digits=6, decimal_places=2)
+	longitud = models.DecimalField(max_digits=6, decimal_places=2)
 	tipoDeSuelo = models.ForeignKey(TipoSuelo)
-	altura = models.DecimalField(max_digits=7, decimal_places=2)
+	altitud = models.CharField(max_length=50)
 	def __unicode__(self):
 		return  u"%s (%s)" % (self.nombreCientifico, self.nombreComun)
