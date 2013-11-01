@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/dev/ref/settings/
 import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
+    '/home2/baenafra/www/static/',
 )
 
 
@@ -83,14 +83,14 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/dev/howto/static-files/
 
-STATIC_URL = '/static/'
+STATIC_URL = 'http://static.qea.me/'
 
 ROOT = os.path.join(os.path.dirname(__file__), "..")
 
 
-MEDIA_ROOT = os.path.join(ROOT, "media/")
+MEDIA_ROOT = "/home2/baenafra/www/media/"
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
 # Examples: "http://example.com/media/", "http://media.example.com/"
-MEDIA_URL = '/media/'
+MEDIA_URL = 'http://media.qea.me/'
