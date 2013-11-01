@@ -13,5 +13,6 @@ class Planta(models.Model):
 	longitud = models.DecimalField(max_digits=6, decimal_places=2)
 	tipoDeSuelo = models.ForeignKey(TipoSuelo)
 	altitud = models.CharField(max_length=50)
+	longitudRaiz = models.CharField(max_length=200)
 	def __unicode__(self):
 		return  u"%s (%s)" % (self.nombreCientifico, self.nombreComun)
