@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<div class="jumbotron text-center">
+<div class="jumbotron text-center" style="padding:30px 0px 30px 0px">
   <h2>Guía Forestal de Andalucía</h2>
   <form method="POST" action="/login/" role="form">
   	{% csrf_token %}
@@ -28,7 +28,7 @@
   		</div>
   	</div>
     {% if error %}
-            <p><div class="alert alert-danger" style="width:100%">
+            <p><div class="alert alert-danger">
               {{ error }}
             </div></p>
     {% endif %}
