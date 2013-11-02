@@ -21,15 +21,31 @@
 	<ul class="nav navbar-nav">
     	<li><a href data-toggle="modal" data-target="#formularioPlanta">Añadir planta</a></li>
   	</ul>
-	<p class="navbar-text pull-right">Conectado como Adrián Escudero <a href="#" class="navbar-link">(desconectar)</a></p>
+	<p class="navbar-text pull-right">Conectado como {{ user.get_full_name }} <a href="./logout/" class="navbar-link">(desconectar)</a></p>
 </nav>
 
 <div class="container">
-	<table class="table table-striped" style="margin-top:50px">
+	<table class="table table-striped" style="margin-top:50px; text-align:center !important;">
 	  <tr>
-	  	<th>Nombre Científico</th>
-	  	<th>Nombre Común</th>
+	  	<th style="text-align:center !important;">Nombre Científico</th>
+	  	<th style="text-align:center !important;">Nombre Común</th>
+	  	<th style="text-align:center !important;">Longitud</th>
+	  	<th style="text-align:center !important;">Distribución</th>
+	  	<th style="text-align:center !important;">Tipo de Suelo</th>
+	  	<th style="text-align:center !important;">Altitud</th>
+	  	<th style="text-align:center !important;">Añadido por</th>
 	  </tr>
+	  {% for planta in plantas %}
+	  <tr>
+	  	<td>{{ planta.nombreCientifico }}</td>
+	  	<td>{{ planta.nombreComun }}</td>
+	  	<td>{{ planta.longitud }}</td>
+	  	<td>{{ planta.distribucion }}</td>
+	  	<td>{{ planta.tipoDeSuelo }}</td>
+	  	<td>{{ planta.altitud }}</td>
+	  	<td>{{ planta.creador }}</td>
+	  </tr>
+	  {% endfor %}
 	</table>
 </div>
 
@@ -42,11 +58,49 @@
         <h4 class="modal-title" id="myModalLabel">Añadir planta</h4>
       </div>
       <div class="modal-body">
-        
+		<form action="/" method="POST" role="form">
+			{% csrf_token %}
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">Nombre Científico</label>
+		    <input type="text" class="form-control" name="scname" placeholder="Quercus ilex" required>
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">Nombre Común</label>
+		    <input type="text" class="form-control" name="cname" placeholder="Encina" required>
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">Distribuición</label>
+		    <input type="text" class="form-control" name="dist" placeholder="No sé qué poner aquí" required>
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">Tipo de suelo</label>
+		    <div class="row">
+	 			<div class="col-xs-6">
+					<select id="tipoDeSuelo" name="tipoDeSuelo" class="form-control">
+						{% for tipo in tiposSuelo %}
+						<option value="{{ tipo.nombre }}">{{ tipo.nombre }}</option>
+						{% endfor %}
+						<option value="other">Otro</option>
+					</select>
+				</div>
+				<div class="col-xs-6">
+			    	<input type="text" class="form-control" id="sueloOther" name="sueloOther" placeholder="Otro">
+			    </div>
+			</div>
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">Longitud</label>
+		    <input type="number" class="form-control" name="longitud" placeholder="15" required>
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">Altitud</label>
+		    <input type="text" class="form-control" name="altitud" placeholder="Nivel del mar - 100 m" required>
+		  </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
-        <button type="button" class="btn btn-primary">Guardar cambios</button>
+        <button type="submit" class="btn btn-primary">Guardar cambios</button>
+        </form>
       </div>
     </div>
   </div>
@@ -55,6 +109,15 @@
 
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="{{ STATIC_URL }}bootstrap/js/bootstrap.min.js"></script>
-
+<script type="text/javascript">
+var $tiposSuelo = $('#tipoDeSuelo'), $otherInput = $('#sueloOther');
+$tiposSuelo.change(function () {
+    if ($tiposSuelo.val() == 'other') {
+        $otherInput.removeAttr('disabled');
+    } else {
+        $otherInput.attr('disabled', 'disabled').val('');
+    }
+}).trigger('change'); // added trigger to calculate initial state
+</script>
 </body>
 </html>
