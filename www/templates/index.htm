@@ -34,6 +34,8 @@
 	  	<th style="text-align:center !important;">Tipo de Suelo</th>
 	  	<th style="text-align:center !important;">Altitud</th>
 	  	<th style="text-align:center !important;">Añadido por</th>
+	  	<th style="text-align:center !important;">Foto</th>
+	  	<th style="text-align:center !important;">Hoja</th>
 	  </tr>
 	  {% for planta in plantas %}
 	  <tr>
@@ -44,6 +46,8 @@
 	  	<td>{{ planta.tipoDeSuelo }}</td>
 	  	<td>{{ planta.altitud }}</td>
 	  	<td>{{ planta.creador }}</td>
+	  	<td>{{ planta.foto }}</td>
+	  	<td>{{ planta.detalleHoja }}</td>
 	  </tr>
 	  {% endfor %}
 	</table>
@@ -78,7 +82,7 @@
 		  </div>
 		  <div class="form-group">
 		    <label for="exampleInputPassword1">Distribuición</label>
-		    <input type="text" class="form-control" name="dist" placeholder="No sé qué poner aquí" required>
+		    <input type="text" class="form-control" name="dist" placeholder="Mediterráneo" required>
 		  </div>
 		  <div class="form-group">
 		    <label for="exampleInputPassword1">Tipo de suelo</label>
@@ -98,7 +102,7 @@
 		  </div>
 		  <div class="form-group">
 		    <label for="exampleInputPassword1">Longitud</label>
-		    <input type="number" class="form-control" name="longitud" placeholder="15" required>
+		    <input type="number" class="form-control" name="longitud" placeholder="15 m" required>
 		  </div>
 		  <div class="form-group">
 		    <label for="exampleInputPassword1">Altitud</label>
