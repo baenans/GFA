@@ -46,8 +46,15 @@
 	  	<td>{{ planta.tipoDeSuelo }}</td>
 	  	<td>{{ planta.altitud }}</td>
 	  	<td>{{ planta.creador }}</td>
-	  	<td>{{ planta.foto }}</td>
-	  	<td>{{ planta.detalleHoja }}</td>
+	  	<td>
+	  	<a href="media.qea.me/gfa/{{ planta.foto }}">
+	  	{{ planta.foto }}
+	  	</a>
+	  	</td>
+	  	<td>
+	  	<a href="media.qea.me/gfa/{{ planta.detalleHoja }}">
+	  	{{ planta.detalleHoja }}
+	  	</a></td>
 	  </tr>
 	  {% endfor %}
 	</table>
