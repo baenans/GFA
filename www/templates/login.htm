@@ -25,14 +25,14 @@
   		<div class="col-md-4 col-md-offset-4">
   			 <p><input type="text" class="form-control" name="username" placeholder="Usuario" required></p>
   			 <p><input type="password" class="form-control" name="password" placeholder="Contraseña" required></p>
-          {% if error %}
+  		</div>
+  	</div>
+    {% if error %}
             <p><div class="alert alert-danger">
               {{ error }}
             </div></p>
-          {% endif %}
-  			 <p><button type="submit" class="btn btn-primary" role="button">Acceder</button></p>
-  		</div>
-  	</div>
+    {% endif %}
+    <p><button type="submit" class="btn btn-primary" role="button">Acceder</button></p>
   </form>
 </div>
 
