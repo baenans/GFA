@@ -21,6 +21,8 @@ def index(request):
 			nombreCientifico=request.POST['scname'],
 			distribucion=request.POST['dist'],
 			longitud=request.POST['longitud'],
+			foto=request.POST['foto'],
+			detalleHoja=request.POST['detalleHoja'],
 			altitud=request.POST['altitud'],
 			tipoDeSuelo=suelo,
 			creador=request.user)

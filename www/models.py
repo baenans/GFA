@@ -10,6 +10,7 @@ class Planta(models.Model):
 	nombreCientifico = models.CharField(max_length=150)
 	nombreComun = models.CharField(max_length=150)
 	foto = models.ImageField(upload_to="gfa/")
+	detalleHoja = models.ImageField(upload_to="gfa/")
 	distribucion = models.CharField(max_length=100)
 	longitud = models.CharField(max_length=50)
 	tipoDeSuelo = models.ForeignKey(TipoSuelo)
