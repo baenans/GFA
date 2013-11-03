@@ -47,12 +47,12 @@
 	  	<td>{{ planta.altitud }}</td>
 	  	<td>{{ planta.creador }}</td>
 	  	<td>
-	  	<a href="http://media.qea.me{{ planta.foto }}">
+	  	<a href="{{ MEDIA_URL }}{{ planta.foto }}">
 	  	{{ planta.foto }}
 	  	</a>
 	  	</td>
 	  	<td>
-	  	<a href="http://media.qea.me{{ planta.detalleHoja }}">
+	  	<a href="{{ MEDIA_URL }}{{ planta.detalleHoja }}">
 	  	{{ planta.detalleHoja }}
 	  	</a></td>
 	  </tr>
