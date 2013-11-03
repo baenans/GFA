@@ -6,11 +6,12 @@ class TipoSuelo(models.Model):
 	nombre = models.CharField(max_length=100)
 	def __unicode__(self):
 		return u"%s" % (self.nombre)
+
 class Planta(models.Model):
 	nombreCientifico = models.CharField(max_length=150)
 	nombreComun = models.CharField(max_length=150)
-	foto = models.ImageField(upload_to="gfa/")
-	detalleHoja = models.ImageField(upload_to="gfa/")
+	foto = models.ImageField(upload_to="gfa/", blank=True, null=True)
+	detalleHoja = models.ImageField(upload_to="gfa/", blank=True, null=True)
 	distribucion = models.CharField(max_length=100)
 	longitud = models.CharField(max_length=50)
 	tipoDeSuelo = models.ForeignKey(TipoSuelo)

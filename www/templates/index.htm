@@ -69,27 +69,28 @@
         <h4 class="modal-title" id="myModalLabel">Añadir planta</h4>
       </div>
       <div class="modal-body">
-		<form action="/" method="POST" role="form">
+
+		<form action="/" method="POST" role="form" enctype="multipart/form-data" >
 			{% csrf_token %}
 		  <div class="form-group">
-		    <label for="exampleInputEmail1">Nombre Científico</label>
-		    <input type="text" class="form-control" name="scname" placeholder="Quercus ilex" required>
+		    <label for="id_nombreCientifico">Nombre Científico</label>
+		    {{ form.nombreCientifico }}
 		  </div>
 		  <div class="form-group">
-		    <label for="exampleInputPassword1">Nombre Común</label>
-		    <input type="text" class="form-control" name="cname" placeholder="Encina" required>
+		    <label for="id_nombreComun">Nombre Común</label>
+		    {{ form.nombreComun }}
 		  </div>
 		  <div class="form-group">
-		    <label for="exampleInputPassword1">Foto</label>
-		    <input name="foto" type="file" />
+		    <label for="id_foto">Foto</label>
+		    {{ form.foto }}
 		  </div>
 		  <div class="form-group">
-		    <label for="exampleInputPassword1">Foto de la Hoja</label>
-		    <input name="detalleHoja" type="file" />
+		    <label for="id_detalleHoja">Foto de la Hoja</label>
+		    {{ form.detalleHoja }}
 		  </div>
 		  <div class="form-group">
-		    <label for="exampleInputPassword1">Distribuición</label>
-		    <input type="text" class="form-control" name="dist" placeholder="Mediterráneo" required>
+		    <label for="id_distibucion">Distribución</label>
+		    {{ form.distribucion }}
 		  </div>
 		  <div class="form-group">
 		    <label for="exampleInputPassword1">Tipo de suelo</label>
@@ -108,13 +109,14 @@
 			</div>
 		  </div>
 		  <div class="form-group">
-		    <label for="exampleInputPassword1">Longitud</label>
-		    <input type="number" class="form-control" name="longitud" placeholder="15 m" required>
+		    <label for="id_longitud">Longitud</label>
+		    {{ form.longitud }}
 		  </div>
 		  <div class="form-group">
-		    <label for="exampleInputPassword1">Altitud</label>
-		    <input type="text" class="form-control" name="altitud" placeholder="Nivel del mar - 100 m" required>
-		  </div>
+		    <label for="id_altitud">Altitud</label>
+
+				{{ form.altitud }}		  
+			</div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>

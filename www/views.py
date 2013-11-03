@@ -4,35 +4,46 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
 from www.models import Planta, TipoSuelo
 from django.core.context_processors import csrf
+from django import forms
+from django.http import HttpResponseRedirect
 
 # Create your views here.
 
+class PlantaForm(forms.ModelForm):
+    class Meta:
+        model = Planta
+        fields = ['nombreCientifico','altitud','nombreComun','foto','detalleHoja','distribucion','longitud']
+        widgets = {
+            'nombreCientifico': forms.TextInput(attrs={'class': 'form-control'}),
+            'nombreComun': forms.TextInput(attrs={'class': 'form-control'}),
+            'distribucion': forms.TextInput(attrs={'class': 'form-control'}),
+            'longitud': forms.TextInput(attrs={'class': 'form-control'}),
+            'altitud': forms.TextInput(attrs={'class': 'form-control'}),
+        }
+
+
 @login_required(login_url='/login/')
 def index(request):
-	if request.method=='POST':
-		if request.POST['tipoDeSuelo'] == 'other':
-			suelo = TipoSuelo(nombre=request.POST['sueloOther'])
-			suelo.save()
-		else:
-			suelo = TipoSuelo.objects.get(nombre=request.POST['tipoDeSuelo'])
+	if request.method == 'POST': # If the form has been submitted...
+		form = PlantaForm(request.POST, request.FILES) # A form bound to the POST data
+		if form.is_valid(): # All validation rules pass
+			obj = form.save(commit=False)
+			obj.creador = request.user
+			if request.POST['tipoDeSuelo'] == 'other':
+				suelo = TipoSuelo(nombre=request.POST['sueloOther'])
+				suelo.save()
+			else:
+				suelo = TipoSuelo.objects.get(nombre=request.POST['tipoDeSuelo'])
+			obj.tipoDeSuelo = suelo
+			obj.save()
 
-		nuevaPlanta = Planta(
-			nombreComun=request.POST['cname'],
-			nombreCientifico=request.POST['scname'],
-			distribucion=request.POST['dist'],
-			longitud=request.POST['longitud'],
-			foto=request.POST['foto'],
-			detalleHoja=request.POST['detalleHoja'],
-			altitud=request.POST['altitud'],
-			tipoDeSuelo=suelo,
-			creador=request.user)
-		nuevaPlanta.save()
-		
-	plantas = Planta.objects.all()
+	form = PlantaForm() # An unbound form
 	tiposSuelo = TipoSuelo.objects.all()
-	context = {	'plantas':plantas,
-				'tiposSuelo':tiposSuelo}
-	context.update(csrf(request))
+	plantas = Planta.objects.all()
+	context = {	'form':form,
+				'plantas':plantas,
+				'tiposSuelo': tiposSuelo};
+
 	return render(request, 'index.htm', context)
 
 def loginView(request):
