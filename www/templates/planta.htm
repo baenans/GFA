@@ -1,52 +1,43 @@
 {% extends "base.htm" %}
-{% block titulo %} - Índice{% endblock %}
+{% block titulo %} - {{ planta.nombreCientifico }}{% endblock %}
 {% block botones %}
-<li><a href data-toggle="modal" data-target="#formularioPlanta">Añadir planta</a></li>
+<li><a href data-toggle="modal" data-target="#editarPlanta">Editar planta</a></li>
 {% endblock %}
 {% block content %}
-<div class="container">
-	<table class="table table-striped" style="margin-top:50px; text-align:center !important;">
-	  <tr>
-	  	<th style="text-align:center !important;">Nombre Científico</th>
-	  	<th style="text-align:center !important;">Nombre Común</th>
-	  	<th style="text-align:center !important;">Longitud</th>
-	  	<th style="text-align:center !important;">Distribución</th>
-	  	<th style="text-align:center !important;">Tipo de Suelo</th>
-	  	<th style="text-align:center !important;">Altitud</th>
-	  	<th style="text-align:center !important;">Foto</th>
-	  	<th style="text-align:center !important;">Hoja</th>
-	  	<th style="text-align:center !important;">Añadido por</th>
-	  </tr>
-	  {% for planta in plantas %}
-	  <tr>
-	  	<td><a href="/{{ planta.id }}/">{{ planta.nombreCientifico }}</a></td>
-	  	<td>{{ planta.nombreComun }}</td>
-	  	<td>{{ planta.longitud }}</td>
-	  	<td>{{ planta.distribucion }}</td>
-	  	<td>{{ planta.tipoDeSuelo }}</td>
-	  	<td>{{ planta.altitud }}</td>
-	  	<td>
-	  	<a href="{{ MEDIA_URL }}{{ planta.foto }}">
-	  	{{ planta.foto }}
-	  	</a>
-	  	</td>
-	  	<td>
-	  	<a href="{{ MEDIA_URL }}{{ planta.detalleHoja }}">
-	  	{{ planta.detalleHoja }}
-	  	</a></td>
-	  	<td>{{ planta.creador }}</td>
-	  </tr>
-	  {% endfor %}
-	</table>
+<div class="container" style="margin-top:40px">
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title"><strong>{{ planta.nombreCientifico }}</strong> <em>({{ planta.nombreComun }})</em></h3>
+  </div>
+  <div class="panel-body">
+    <dl class="dl-horizontal">
+    	<dt>Fotos</dt>
+    	<dd><img src="{{ MEDIA_URL }}{{ planta.foto }}" style="width:120px"><img src="{{ MEDIA_URL }}{{ planta.detalleHoja }}" style="width:120px"></dd>
+        <dt>Nombre Científico</dt>
+        <dd>{{ planta.nombreCientifico }}</dd>
+        <dt>Nombre Común</dt>
+        <dd>{{ planta.nombreComun }}</dd>
+        <dt>Distribucion</dt>
+        <dd>{{ planta.distribucion }}</dd>
+        <dt>Longitud</dt>
+        <dd>{{ planta.longitud }}</dd>
+        <dt>Altitud</dt>
+        <dd>{{ planta.altitud }}</dd>
+        <dt>Tipo de Suelo</dt>
+        <dd>{{ planta.tipoDeSuelo }}</dd>
+      </dl>
+  </div>
 </div>
 
+</div>
 
-<div class="modal fade" id="formularioPlanta" tabindex="-1" role="dialog" aria-labelledby="etiquetaForm" aria-hidden="true">
+<div class="modal fade" id="editarPlanta" tabindex="-1" role="dialog" aria-labelledby="etiquetaForm" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Añadir planta</h4>
+        <h4 class="modal-title" id="myModalLabel">Editar planta</h4>
       </div>
       <div class="modal-body">
 
@@ -120,5 +111,6 @@ $tiposSuelo.change(function () {
     }
 }).trigger('change'); // added trigger to calculate initial state
 </script>
+</div>
 {% endblock %}
 

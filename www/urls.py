@@ -9,6 +9,7 @@ urlpatterns = patterns('',
 
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'www.views.index', name='index'),
+    url(r'^(?P<planta_id>\d+)/$', 'www.views.detail', name='detail'),
     url(r'^login/$', 'www.views.loginView', name='loginView'),
     url(r'^logout/$', 'www.views.logoutView', name='logoutView'),
 

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
 from www.models import Planta, TipoSuelo
@@ -45,6 +45,11 @@ def index(request):
 				'tiposSuelo': tiposSuelo};
 
 	return render(request, 'index.htm', context)
+
+def detail(request, planta_id):
+	planta = get_object_or_404(Planta, pk=planta_id)
+	context = {'planta': planta,}
+	return render(request, 'planta.htm', context)
 
 def loginView(request):
 	if request.user.is_authenticated():
