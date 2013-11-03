@@ -13,8 +13,6 @@
 	  	<th style="text-align:center !important;">Distribución</th>
 	  	<th style="text-align:center !important;">Tipo de Suelo</th>
 	  	<th style="text-align:center !important;">Altitud</th>
-	  	<th style="text-align:center !important;">Foto</th>
-	  	<th style="text-align:center !important;">Hoja</th>
 	  	<th style="text-align:center !important;">Añadido por</th>
 	  </tr>
 	  {% for planta in plantas %}
@@ -25,15 +23,6 @@
 	  	<td>{{ planta.distribucion }}</td>
 	  	<td>{{ planta.tipoDeSuelo }}</td>
 	  	<td>{{ planta.altitud }}</td>
-	  	<td>
-	  	<a href="{{ MEDIA_URL }}{{ planta.foto }}">
-	  	{{ planta.foto }}
-	  	</a>
-	  	</td>
-	  	<td>
-	  	<a href="{{ MEDIA_URL }}{{ planta.detalleHoja }}">
-	  	{{ planta.detalleHoja }}
-	  	</a></td>
 	  	<td>{{ planta.creador }}</td>
 	  </tr>
 	  {% endfor %}
